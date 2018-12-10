@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'assignment14';
+ country ="";
+ setCountry(value){
+   this.country = value;
+ }
 }
